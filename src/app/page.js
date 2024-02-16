@@ -45,7 +45,7 @@ const page = () => {
     <Section6/>
     <Footercards/> */}
     <Footerslider/>
-    <Footerslidercard/>
+    // <Footerslidercard/>
     {/* <Footer/> */}
 
     </div>
