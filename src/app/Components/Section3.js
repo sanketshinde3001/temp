@@ -4,9 +4,10 @@ import React from "react";
 
 export default function Pages() {
   return (
-    <div className="flex justify-center ">
-      <div className="container h-1/2 w-3/5 bg-orange-50 rounded-2xl  flex justify-between align-center m-20 p-16   ">
-        <div className="m-20 content align-middle w-1/3 h-auto">
+
+      <div className="container bg-orange-50 rounded-2xl  flex justify-between align-center  mx-auto h-3/4 px-28">
+        <div className="w-1/2 flex items-start justify-center flex-col">
+          <div className="w-4/5">
           <h2 className="font-bold text-4xl   ">
             Streamline 
             communication with couples
@@ -19,15 +20,17 @@ export default function Pages() {
           <button className="mt-7 bg-purple-950 p-3 rounded-3xl text-white">
             Connect with your next booking
           </button>
+          </div>
+          
         </div>
-        <div className="img h-1/5 w-1/2 ">
+        <div className=" w-1/2 my-16 flex items-center justify-end ">
           <Image className="rounded-2xl" 
             src="https://pros.weddingpro.com/wp-content/uploads/2023/10/5_HP_streamlined-comms.png"
             width={500}
             height={500}
-            alt="Picture of the author" />
+            alt="Streamline communication with couples" />
         </div>
-      </div>
+
     </div>
   );
 }

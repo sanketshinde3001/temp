@@ -43,12 +43,12 @@ function Footerslider() {
        
 
       <div className="w-full bg-yellow-300 py-16">
-        <Slider {...settings} className="w-2/3  container mx-auto">
+        <Slider {...settings} className="w-full container mx-auto">
         <div>
-        <Footerslidercard name={"one"}/>
+        <Footerslidercard/>
         </div>
         <div>
-        <Footerslidercard name={"one"}/>
+        <Footerslidercard/>
         </div>
         <div>
         <Footerslidercard name={"one"}/>

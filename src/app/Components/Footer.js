@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="  bg-back w-screen ">
         <div className="container flex justify-between align-center mx-36 p-20">
           <div className="img--1 ">
-            <img className="h-3/4 mx-10 rounded-2xl" src="./footer.webp" alt="" />
+            <img className="h-3/4 mx-10 rounded-2xl" src="https://pros.weddingpro.com/wp-content/uploads/2023/10/13_HP_Form-Field.png" alt="" />
           </div>
           <div className="heading text-white">
             <h2 className="text-3xl font-bold ">Get started with us!</h2>
